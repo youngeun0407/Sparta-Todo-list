@@ -128,21 +128,33 @@ table {
   border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+body{
+	font-family: "Poor Story", system-ui;
+
+}
 .layout {
   max-width: 1200px;
   min-width: 800px;
   margin: 0 auto;
+  font-family: "Poor Story", system-ui;
 }
+
 .title {
   font-size: 2rem;
   font-weight: bold;
   margin: 1rem 0;
+  text-align: center;
 }
+
+
 
 .todo-list-tilte {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 1rem 0;
+  
 }
 .todo-card {
   display: flex;
@@ -158,4 +170,14 @@ table {
 .todo-title {
   font-size: 1.5rem;
   font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+	display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  gap: 10px;
 }

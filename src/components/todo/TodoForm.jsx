@@ -24,7 +24,7 @@ const TodoForm = ({setTodos}) => {
   };
 
   return (
-    <div>
+    <div className="form">
       <form onSubmit={onSubmit}>
         <input type="text" placeholder="제목" 
         name="title"
