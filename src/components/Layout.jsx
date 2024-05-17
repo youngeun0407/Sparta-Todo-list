@@ -1,6 +1,6 @@
 
 const Layout = ({children}) => {
-  return <main>{children}</main>;
+  return <main className="layout">{children}</main>;
   
 };
 

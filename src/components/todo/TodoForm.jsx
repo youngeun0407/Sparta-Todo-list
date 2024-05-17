@@ -16,9 +16,9 @@ const TodoForm = ({setTodos}) => {
       title,
       content,
       isDone: false,
-    }
-    console.log("nextTodo :>>", nextTodo);
-    setTodos((prevTodos)=> [nextTodo, ...prevTodos]);
+    };
+
+    setTodos((prev)=> [nextTodo, ...prev]);
     
     e.target.reset();//등록 내용 빈값으로 유지(내용 초기화)
   };
@@ -32,7 +32,7 @@ const TodoForm = ({setTodos}) => {
         <input type="text" placeholder="내용" 
         name="content"
         />
-        <button type="submit">등록</button>
+        <button type="submit">추가</button>
       </form>
     </div>
   );
